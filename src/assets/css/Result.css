@@ -1,0 +1,22 @@
+.resultCard{
+  padding: 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* .cardRe{
+} */
+.reCancelBtn{
+  position: absolute;
+  top: 2rem;
+right: 2rem;
+padding: 7px 15px;
+}
+@media (max-width: 767px){
+  .reCancelBtn{
+  top: 1rem;
+right: 1rem;
+padding: 5px 12px;
+}
+}
